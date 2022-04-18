@@ -160,7 +160,7 @@ h2 {
 }
 
 
-.trade-law :hover {
+.service :hover {
   background-color: #c6c6c6;
 }
 
@@ -234,6 +234,7 @@ h2 {
   width: 20em;
   text-align: center;
 }
+
 .attourneys {
   display: flex;
   justify-content: space-around;
@@ -248,7 +249,7 @@ h2 {
 .h1-our-attourney {
   border-bottom: 5px solid #be9b49;
   font-size: 40px;
-  padding-top: 2em;
+  padding-top: 1em;
   text-transform: uppercase;
 }
 .profile-img {
