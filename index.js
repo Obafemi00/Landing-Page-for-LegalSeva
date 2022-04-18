@@ -9,8 +9,19 @@ btn.addEventListener("click",function(e){
   else {dropdown.style.display = "flex"} 
 })
 
+
+// The preloader
 let loader = document.getElementById("preloader")
 
 window.addEventListener("load", function(){
   loader.style.display ="none"
 })
+
+// The scroll effect on the navabar
+window.addEventListener("scroll",function () {
+let header = document.getElementById("nav")
+let windowPosition = window.scrollY > 0;
+header.classList.toggle("scrolling-active",windowPosition)
+
+})
+
