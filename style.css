@@ -189,7 +189,7 @@ h2 {
 }
 .testimonials {
   color: #f2f2f2;
-  height: 100vh;
+  height: max-content;
   position: relative;
   text-align: center;
   background-image: url("images/black-white-photography-inspiration-portraiture-photography-by-famous-photographers-the-design-work.jpg");
@@ -204,7 +204,9 @@ h2 {
   color: white;
   text-align: center;
 }
-
+.carousel-item {
+  padding-top: 80px;
+}
 .circle {
   border-radius: 50%;
   border: 5px solid goldenrod;
@@ -573,7 +575,7 @@ textarea {
   width: 80vw;
 }
 .testimonials {
-  height: fit-content; 
+  height: max-content; 
 }
 .contact-icons {
   flex-wrap: wrap;
