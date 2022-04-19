@@ -480,11 +480,17 @@ textarea {
   padding-top: 0.5em;
   font-size: 1em;
 }
-h1,h2 {
-  font-size: 2em !important;
+.h1-our-services, .h1-our-attourney, .h1-testimonials,.h1-contact-page {
+  font-size: 2em ;
 }
 .white {
   font-size: 0.8em;
+}
+.circle {
+  border-radius: 50%;
+  border: 5px solid goldenrod;
+  width: 100px;
+  margin-bottom: 20px;
 }
 }
 
@@ -564,7 +570,7 @@ h1,h2 {
   width: 80vw;
 }
 .testimonials {
- 
+  height: fit-content; 
   height: 110vh;
 }
 .contact-icons {
@@ -575,10 +581,10 @@ h1,h2 {
 }
 .brand-logo {
 height:10px;
-width: 25px;
+width: 20px;
 }
 .hamburger-icon {
-  margin-right: 0.5em;
+  margin-right: 0.1em;
 }
 h1 {
   font-size: 1em;
@@ -589,5 +595,10 @@ h2 {
 h3 {
   font-size: 0.7;
 }
-
+.circle {
+  border-radius: 50%;
+  border: 5px solid goldenrod;
+  width: 50px;
+  margin-bottom: 10px;
+}
 }
