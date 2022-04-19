@@ -74,8 +74,8 @@ li a:active , li a:hover {
 }
 
 .brand-logo {
-  height: fit-content;
-  width: 4.5em;
+  height: 40px;
+  width: 100px;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -376,6 +376,7 @@ textarea {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .preloader-text {
   font-size: 1.5em;
@@ -545,7 +546,7 @@ h1,h2 {
 
 
 
-@media (max-width:640px) {
+@media (max-width:400px) {
   .first-row-services, .second-row-services, .third-row {
     display: flex;
     flex-direction: column;
@@ -568,5 +569,11 @@ h1,h2 {
 }
 .contact-icons {
   flex-wrap: wrap;
+}
+.brand-name {
+  font-size: 1.2em;
+}
+.brand-logo {
+
 }
 }
