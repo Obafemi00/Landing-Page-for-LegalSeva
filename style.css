@@ -560,6 +560,9 @@ textarea {
 
 
 @media (max-width:400px) {
+  body {
+    overflow-x: hidden;
+  }
   .first-row-services, .second-row-services, .third-row {
     display: flex;
     flex-direction: column;
@@ -612,6 +615,7 @@ h3 {
   margin-bottom: 10px;
 }
 .justice {
+  top: 10%;
   width: 20em;
 } 
 .flex-contact,form {
@@ -637,6 +641,9 @@ textarea {
 }
 
 .h1-contact-page, .h1-our-attourney, .h1-our-services, .h1-testimonials {
+  font-size: 25px;
+}
+h2 {
   font-size: 20px;
 }
 }
