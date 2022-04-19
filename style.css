@@ -133,6 +133,7 @@ h2 {
 .first-row-services,
 .second-row-services {
   margin: auto;
+  width: 100vw;
   overflow: hidden;
   padding-left: 1em;
   padding-right: 1em;
@@ -428,7 +429,7 @@ textarea {
   }
 }
 
- @media (max-width:1000px) {
+ @media (max-width:1200px) {
   .link-items {
     font-size: 1em;
   }
@@ -440,6 +441,7 @@ display: flex;
  }
  .first-row-services,.second-row-services {
   display: flex;
+  flex-direction: column;
 }
 .family-law,
 .medical-law,
@@ -627,7 +629,7 @@ h3 {
 }
 form {
   width: 25em;
-  padding: 10em 3em 0px 2em;
+  padding: 10em 0em 0px 2em;
 }
 .input-field , textarea {
   margin-bottom: 0.5em;
