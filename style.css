@@ -620,6 +620,9 @@ h3 {
 .justice {
   top: 10%;
   width: 20em;
+}
+.contact-page {
+  width: 100vw;
 } 
 .flex-contact,form {
   display: flex;
@@ -628,7 +631,7 @@ h3 {
   flex-direction: column;
 }
 form {
-  width: 22em;
+  width: 20em;
   padding: 10em 0em 0px 2em;
 }
 .input-field , textarea {
