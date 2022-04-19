@@ -492,8 +492,8 @@ textarea {
   width: 100px;
   margin-bottom: 20px;
 }
-d-block {
-  padding-top: 30px;
+.carousel-item {
+  padding-top: 50px;
 }
 }
 
