@@ -622,7 +622,7 @@ h3 {
 }
 form {
   width: 25em;
-  padding: 0px 3em 0px 2em;
+  padding: 10em 3em 0px 2em;
 }
 .input-field , textarea {
   margin-bottom: 0.5em;
@@ -633,6 +633,10 @@ form {
 }
 textarea {
   padding-top: 0.3em;
-  font-size: 0.5em;
+  font-size: 0.8em;
+}
+
+.h1-contact-page, .h1-our-attourney, .h1-our-services, .h1-testimonials {
+  font-size: 1.3 em;
 }
 }
