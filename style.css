@@ -609,4 +609,28 @@ h3 {
   width: 100px;
   margin-bottom: 10px;
 }
+.justice {
+  size:50%;
+} 
+.flex-contact,form {
+  display: flex;
+} 
+.flex-contact {
+  flex-direction: column;
+}
+form {
+  width: 20em;
+  padding: 0px 3em 0px 2em;
+}
+.input-field , textarea {
+  margin-bottom: 0.5em;
+  padding-left: 0.3em;
+  height: 2em;
+  border-radius: 0.3em;
+  border: none;
+}
+textarea {
+  padding-top: 0.3em;
+  font-size: 0.5em;
+}
 }
